@@ -1,0 +1,18 @@
+# Dependencias (nunca se suben, pesan mucho)
+node_modules/
+
+# Variables de entorno (seguridad / contraseñas)
+.env
+.env.local
+.env.production
+
+# Archivos de log y depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
